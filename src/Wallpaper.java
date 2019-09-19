@@ -8,14 +8,14 @@ public class Wallpaper {
         double rollWidth = 0.85;
         int rollLength = 10;
 
-//        Сколько всего полотнищ нужно для оклеивания помещения?
+//        How many total panels do you need for gluing a room?
         int numberOfPanels = (int) (roomPerimeter/rollWidth + 1);
 
-//        На сколько полотнищ хватит одного рулона?
+//        How many sheets will one roll have?
         int panelsFromOneRoll = (int) (rollLength/roomHeight);
 
-//        Сколько рулонов обоев понадобится?
+//        How many rolls of wallpaper will you need?
         int numberOfRolls = numberOfPanels/panelsFromOneRoll + 1;
-        System.out.println("Нам нужно " + numberOfRolls + " рулонов обоев.");
+        System.out.println("We need " + numberOfRolls + " rolls of wallpaper.");
     }
 }
