@@ -3,7 +3,7 @@ Created by Konshin Andrew
 */
 public class Wallpaper {
     public static void main(String[] args) {
-        int roomPerimeter = 28;
+        double roomPerimeter = 28;
         double roomHeight = 2.8;
         double rollWidth = 0.85;
         int rollLength = 10;
